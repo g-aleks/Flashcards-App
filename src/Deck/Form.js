@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 export default function Form({
     onSubmit,
-    onCancel,
     initialState = { name: "", description: "" },
     }) {
     const [deck1, setDeck] = useState(initialState);

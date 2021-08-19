@@ -22,12 +22,8 @@ export default function Edit() {
         })
     }
 
-    function cancel(){
-        history.goBack()
-    }
-
     const renderForm = deck.id ? (
-        <Form onCancel={cancel} onSubmit={submitHandler} initialState={deck}/>
+        <Form onSubmit={submitHandler} initialState={deck}/>
     ) : (
         <p>Loading...</p>
     )
