@@ -5,7 +5,7 @@ This app was created using React and Nodejs. It offers the ability to create new
 ## Project Setup
 
  - Run `npm install`
- - Run `npm start` to launch the frontend and server on localhost:5000 and localhost:3000 respectively.
+ - Run `npm start` to launch the server and frontend on localhost:5000 and localhost:3000 respectively.
  - Navigate to localhost:3000 to use the app.
 
 
